@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
     res.sendFile(process.cwd() + '/views/index.html');
 });
 
-
+app.post('/api/fileanalyse', multer().single('upfile'), ())
 
 
 const port = process.env.PORT || 3000;
