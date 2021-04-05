@@ -37,7 +37,6 @@ a {
 .footer {
   margin-top: 0px;
   color: #f5f4eb;
-  font-style: none;
 }
 
 a {
@@ -51,7 +50,18 @@ input {
 }
 
 input#button {
-  width: 230px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: .2rem;
+  color: #f5f4eb;
+  background-color: #44476c;
+  
 }
 
 .view {
