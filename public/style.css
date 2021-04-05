@@ -10,7 +10,7 @@ body {
   font-size: 1.5em;
   line-heigth: 1.5;
   font-weigth: 500;
-  color: white;
+  color: #f5f4eb;
   background-color: #44476c;
   text-align: center;
 }
@@ -20,13 +20,24 @@ h2 {
   margin-top: 5rem;
 }
 
+p {
+  font-size: .65em;
+  color: #f5f4eb;
+}
+
+a {
+  color: #f5f4eb;
+}
+
 .container {
   padding: 0;
   margin-top: 10px;
 }
 
 .footer {
-  margin-top: 60px;
+  margin-top: 0px;
+  color: #f5f4eb;
+  font-style: none;
 }
 
 a {
@@ -55,5 +66,6 @@ input#button {
   padding: 20px;
   border-radius: 3px;
   min-width: 400px;
-  background-color: #f3f3ed;
+  background-color: #f5f4eb;
+  color: black;
 }
