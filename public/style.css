@@ -48,9 +48,11 @@ form {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   padding: 0px;
   min-width: 500px;
   border-radius: 3px;
+  margin-top: 0px;
 }
 
 input {
@@ -61,6 +63,7 @@ input {
 
 input#inputfield {
   display: inline-block;
+  margin-top: 0px;
 }
 
 input#button {
@@ -91,8 +94,8 @@ input#button {
   min-width: 500px;
   width: 50%;
   margin: auto;
-  margin-top: 0px;
   padding: 20px;
+  padding-top: 0px;
   border-radius: 3px;
   min-width: 400px;
   background-color: #f5f4eb;
