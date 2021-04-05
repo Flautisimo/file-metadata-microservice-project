@@ -59,6 +59,11 @@ input#button {
   font-weight: 600;
   line-height: 40px;
   letter-spacing: .2rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
   color: #f5f4eb;
   background-color: #44476c;
   
